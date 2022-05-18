@@ -4,6 +4,9 @@
 function hideGoTop(scrollTop) {
     const $goTop = document.querySelector('.go-top');
 
+    /*
+        toggle함수의 경우
+    */
     $goTop.classList.toggle('hide', scrollTop < 800);
 
     /*
